@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f4670;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #eeebeb;
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px 20px;
+    transition: background-color 0.1s ease;
+}
+
+#home .card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#home .card:hover {
+    transform: translateY(-5px);
+}
+
+#home img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 5px solid #fff;
+}
+
+#about h3 {
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+#projects .card {
+    transition: transform 0.3s ease-in-out;
+}
+
+#projects .card:hover {
+    transform: translateY(-5px);
+}
+
+#skills .progress {
+    height: 25px;
+    margin-bottom: 1rem;
+}
+
+#skills .progress-bar {
+    background-color: #007bff;
+}
+
+#contact .contact-info i {
+    margin-right: 10px;
+    color: #007bff;
+}
+
+footer {
+    margin-top: 2rem;
+}
+
+#contact .row img{
+    box-shadow: 10px 10px 10px rgba(187, 206, 174, 0.8);
+}
